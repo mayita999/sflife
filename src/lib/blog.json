@@ -1,0 +1,23 @@
+{
+  "name": "SF adventure",
+  "countdown": 25,
+  "posts": [
+    {
+      "title": "Rats",
+      "description": "So many rats",
+      "image": "/images/IMG_3222-cleaned.jpg"
+    },
+    {
+      "title": "Scene",
+      "description": "A view of SF"
+    },
+    {
+      "title": "Home",
+      "description": "A view of SF"
+    },
+    {
+      "title": "La Tres",
+      "description": "A view of SF"
+    }
+  ]
+}
