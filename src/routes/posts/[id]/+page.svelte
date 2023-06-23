@@ -9,5 +9,11 @@
 		<h2 class="card-title">Tree</h2>
 		<p>big tall tree</p>
 	</div>
-	<figure><img src="/images/IMG_3222-cleaned.jpg" alt="Shoes" /></figure>
+	<figure>
+		{#if data.post.image}
+			<img src="/images/{data.post.image}" alt="Shoes" />
+		{:else}
+			<p class="p-10 text-2xl">Not there yet...</p>
+		{/if}
+	</figure>
 </div>
